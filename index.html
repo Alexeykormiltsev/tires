@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tires</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__top-adress">
+            <img src="images/header/select_location.svg" alt="location img" />
+            <select id="city">
+              <option value="mos">Москва</option>
+              <option value="chel">Челябинск</option>
+            </select>
+            <span>Челябинск, ул. Лермонтова 21, 3 этаж, офис 4</span>
+          </div>
+          <ul class="header__top-list">
+            <li class="header__top-item">
+              <a href="#" class="header__top-link">
+                Покупателю
+                <img src="images/header/link_arrow.svg" alt="arrow img" />
+              </a>
+            </li>
+            <li class="header__top-item">
+              <a href="#" class="header__top-link">
+                О магазине
+                <img src="images/header/link_arrow.svg" alt="arrow img" />
+              </a>
+            </li>
+          </ul>
+          <div class="header__top-opening_hours">
+            <img src="images/header/clock.svg" alt="clock img" />
+            <span>Пн-пт: 9:30-22:00 сб-вс: 9:30-18:00</span>
+          </div>
+          <div class="header__top-allowance">
+            <img src="images/header/user_icon.svg" alt="user icon" />
+            <button class="header__top-btn">Вход</button>
+          </div>
+        </div>
+        <div class="header__center">
+          <a href="#" class="header__logo">
+            <img src="images/header/logo.svg" alt="logo img" />
+          </a>
+          <form action="#" class="header__form">
+            <div class="select">
+              <select id="category">
+                <option value="category">Все категории</option>
+              </select>
+            </div>
+            <input
+              type="text"
+              class="header__form-input"
+              placeholder="Поиск товаров по каталогу"
+            />
+            <button class="header__form-btn">
+              <img src="images/header/search.svg" alt="search icon" />
+            </button>
+          </form>
+          <div class="header__contact-block">
+            <img src="images/header/phone.svg" alt="phone icon" />
+            <div class="header__contact-linkbox">
+              <a href="tel:+79662407408" class="header__contact-link">
+                +7 (966) 240-74-08
+              </a>
+              <a class="header__contact-sublink" href="#">Обратный звонок</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
