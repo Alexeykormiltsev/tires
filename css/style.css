@@ -36,7 +36,7 @@ ul[class] {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -256,4 +256,57 @@ body {
   font-weight: 400;
   line-height: normal;
   text-decoration: underline;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.header__menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.user-nav {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  /* margin-left: 110px; */
+}
+
+.header__menu-link {
+  color: #292F39;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.user-nav__link {
+  position: relative;
+}
+
+.user-nav__num {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  background: #E32D22;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+  top: -6px;
+  right: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
