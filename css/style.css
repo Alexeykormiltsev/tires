@@ -38,6 +38,7 @@ ul[class] {
 
 a {
   text-decoration: none;
+  white-space: nowrap;
 }
 
 img {
@@ -324,4 +325,51 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.first {
+  background-image: url(../images/first/first-bg.jpg);
+  background-repeat: no-repeat;
+  /* background-position: left center; */
+  background-size: cover;
+}
+
+.first__slider {
+  padding: 131px 0 118px;
+  max-width: 839px;
+}
+
+.first__slider-title {
+  color: #292F39;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 58px;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.first__slider-title span {
+  color: #1694ED;
+}
+
+.first__slider-text {
+  margin-bottom: 27px;
+}
+
+.first__slider-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 14px 16px 16px 21px;
+  border-radius: 50px;
+  max-width: 194px;
+  white-space: nowrap;
+  background: linear-gradient(270deg, #1976D2 0%, #1696EF 100%);
 }
