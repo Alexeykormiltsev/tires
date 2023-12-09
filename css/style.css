@@ -330,7 +330,7 @@ body {
 .first {
   background-image: url(../images/first/first-bg.jpg);
   background-repeat: no-repeat;
-  /* background-position: left center; */
+  background-position: center center;
   background-size: cover;
 }
 
@@ -372,4 +372,196 @@ body {
   max-width: 194px;
   white-space: nowrap;
   background: linear-gradient(270deg, #1976D2 0%, #1696EF 100%);
+}
+
+.footer {
+  background: #1A1E25;
+  padding: 46px 0;
+  color: #fff;
+}
+
+.footer__menu {
+  display: flex;
+  align-items: baseline;
+  gap: 240px;
+  padding-bottom: 32px;
+}
+
+.footer__menu-list {
+  max-width: 180px;
+}
+
+.footer__menu-item h4 {
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.footer__menu-item {
+  margin-bottom: 14px;
+}
+
+.footer__menu-link {
+  color: #FFF;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.footer__subscribe {
+  padding: 47px 0 44px;
+  border-top: 1px solid #46484F;
+  border-bottom: 1px solid #46484F;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__subscribe::before {
+  content: "© 2023 Автошина.";
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 32px;
+  left: 0;
+  bottom: -18px;
+  background: #1A1E25;
+}
+
+.footer__form {
+  display: flex;
+  align-items: center;
+}
+
+.footer__form h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-right: 24px;
+}
+
+.footer__form-label {
+  width: 505px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 50px;
+  border: 1px solid #2A2F2E;
+  background: #232831;
+  padding: 17px 0 17px 23px;
+}
+
+.footer__form-input {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer__form-input::placeholder {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.footer__form-input:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.footer__form-btn {
+  width: 164px;
+  height: 48px;
+  /* padding: 13px 0; */
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  background: #E32D22;
+  border-radius: 50px;
+  margin-left: -168px;
+}
+
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.footer__contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  line-height: normal;
+  padding-left: 30px;
+  position: relative;
+}
+
+.footer__contact ::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: 1px;
+  height: 63px;
+  background: #46484F;
+}
+
+.social {
+  padding-left: 0;
+}
+
+.social ::before {
+ display: none;
+}
+
+.footer__social-link {
+  width: 40px;
+  height: 40px;
+  background: #242932;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contact-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__contact-link span {
+  color: #FFF;
+  font-size: 15px;
+  line-height: normal;
+}
+
+.footer__contact select {
+  border: none;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: normal;
+  background: transparent;
+}
+
+.footer__contact select:focus {
+  outline: none;
 }
