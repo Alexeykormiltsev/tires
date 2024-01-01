@@ -197,7 +197,7 @@
     <section class="selection">
       <div class="container">
         <div class="selection__inner">
-          <div class="selection__item">
+          <form class="selection__item">
             <div class="selection__item-header">
               <h3 class="selection__item-title">
                 Подбор
@@ -251,9 +251,84 @@
                 </select>
               </label>
             </div>
-            <img src="images/selection/tire.png" alt="tire img" />
-          </div>
-          <div class="selection__item">
+            <div class="selection__input-box input-box">
+              <div class="input-box__left">
+                <label for="inp1" class="input-box__label">
+                  <input class="input-box__input" type="checkbox" name="inp1" />
+                  <img
+                    class="label-img"
+                    src="images/selection/icon1.svg"
+                    alt="icon"
+                  />
+                  Всесезонная
+                </label>
+                <label for="inp2" class="input-box__label">
+                  <input class="input-box__input" type="checkbox" name="inp2" />
+                  <img
+                    class="label-img"
+                    src="images/selection/icon2.svg"
+                    alt="icon"
+                  />
+                  Зимняя
+                </label>
+                <label for="inp3" class="input-box__label">
+                  <input class="input-box__input" type="checkbox" name="inp3" />
+                  <img
+                    class="label-img"
+                    src="images/selection/icon3.svg"
+                    alt="icon"
+                  />
+                  Летняя
+                </label>
+              </div>
+              <div class="input-box__right">
+                <label for="inp4" class="input-box__label">
+                  <input class="input-box__input" type="checkbox" name="inp4" />
+                  <img
+                    class="label-img label-img-min"
+                    src="images/selection/icon4.svg"
+                    alt="icon"
+                  />
+                  Нешипованные
+                </label>
+                <label for="inp5" class="input-box__label">
+                  <input class="input-box__input" type="checkbox" name="inp5" />
+                  <img
+                    class="label-img"
+                    src="images/selection/icon5.svg"
+                    alt="icon"
+                  />
+                  Шипованные
+                </label>
+                <label for="inp6" class="input-box__label">
+                  <input class="input-box__input" type="checkbox" name="inp6" />
+                  <img
+                    class="label-img"
+                    src="images/selection/icon6.svg"
+                    alt="icon"
+                  />
+                  Run on flat
+                </label>
+              </div>
+            </div>
+            <div class="selection__button-box button-box">
+              <a href="#" class="button-box__link">
+                Подобрать
+                <img src="images/selection/arrow-right.svg" alt="arrow" />
+              </a>
+              <button class="button-box__btn">Сбросить</button>
+            </div>
+            <a class="selection__question" href="#">
+              <span class="selection__question-span">?</span> Что означают эти
+              цифры?
+            </a>
+            <img
+              class="selection__img"
+              src="images/selection/tire.png"
+              alt="tire img"
+            />
+          </form>
+          <form class="selection__item">
             <div class="selection__item-header">
               <h3 class="selection__item-title">Подбор дисков</h3>
               <div class="tabs2">
@@ -346,8 +421,23 @@
                 </select>
               </label>
             </div>
-            <img src="images/selection/disk.png" alt="disk img" />
-          </div>
+            <div class="selection__button-box button-box">
+              <a href="#" class="button-box__link">
+                Подобрать
+                <img src="images/selection/arrow-right.svg" alt="arrow" />
+              </a>
+              <button class="button-box__btn">Сбросить</button>
+            </div>
+            <a class="selection__question" href="#">
+              <span class="selection__question-span">?</span> Что означают эти
+              цифры?
+            </a>
+            <img
+              class="selection__img"
+              src="images/selection/disk.png"
+              alt="disk img"
+            />
+          </form>
         </div>
       </div>
     </section>
