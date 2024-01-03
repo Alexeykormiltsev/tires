@@ -784,6 +784,7 @@ input[id="radio-4"] {
   right: 14px;
   top: 55%;
   z-index: 1;
+  pointer-events: none; 
 }
 
 .select-box__select::before {
