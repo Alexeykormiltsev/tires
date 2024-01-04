@@ -881,7 +881,7 @@ input[id="radio-4"] {
   align-items: center;
   gap: 12px;
   position: absolute;
-  bottom: 54px;
+  bottom: 64px;
 }
 
 .button-box__link {
@@ -927,4 +927,10 @@ input[id="radio-4"] {
   padding: 2px 7px;
   border: 1px solid #E5EAEF;
   border-radius: 50%;
+}
+.maker__slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
 }
